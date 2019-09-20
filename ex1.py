@@ -26,4 +26,6 @@ def random_drink():
             random_taste = random.randint(0,len(tastes))
             n += 1
             return(tastes[random_taste])
+        else:
+            print("Error! No drink")
 print(random_drink())
